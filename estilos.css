@@ -1,0 +1,164 @@
+/* GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color: #343A40;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+    color: #343A40;
+    font-size: 2.2em;
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+    font-size: .75rem;
+    color: #343A40;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+.container{
+    background-color: beige;
+    border-radius: 25px;
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2{
+    margin: auto;
+}
+
+.container p{
+    padding: 25px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    padding: auto;
+    /*border: 5px solid violet;*/
+}
+
+.perfil__data{
+    background-color: #E1E8EB;
+    height: 100vh;
+    padding: 25px;
+    /*border: 1px solid black;*/
+}
+
+.foto__perfil{
+    background-color: #FFC107;
+    border: 5px solid #343A40;
+    border-radius: 50%;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+}
+
+.foto__perfil img{
+    height: 150px;
+    width: 150px;
+}
+
+.redes a{
+    margin: 5px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #916BBF;
+}
+
+a i:hover{
+    color: #3D2C8D;
+}
+
+nav{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+nav a{
+    color: #916BBF;
+    background-color: #E1E8EB;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #343A40;
+    border-radius: 50px;
+}
+
+nav a:hover{
+    color: #3D2C8D;
+    /*background-color: #343A40;*/
+    background-color: #afb4b6;
+}
+
+#sobre-mi{
+    height: 100vh;
+    padding: 75px;
+    background-color: #9b7ebe;
+    color: #343A40;
+    text-align: center;
+}
+
+#proyectos{
+    height: 100vh;
+    padding: 75px;
+    background-color: #FFC107;
+    color: #343A40;
+    text-align: center;
+}
+
+#contacto{
+    height: 100vh;
+    padding: 75px;
+    background-color: #E1E8EB;
+    color: #343A40;
+    /*display: flex;*/
+    text-align: center;
+    /*flex-direction: column;*/
+}
+
+#contacto a{
+    color: #916BBF;
+    background-color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #343A40;
+    border-radius: 50px;
+}
+
+#contacto a:hover{
+    color: #3D2C8D;
+    background-color: #afb4b6;
+}
+
+.footer{
+    background-color: #E1E8EB;
+}
